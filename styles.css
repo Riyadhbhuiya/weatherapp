@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: #85ffbd;
+    background-image: linear-gradient( #85ffbd 0%, #fffb7d 100%);
+    width: 300px;
+    height: auto;
+    align-self: center;
+    box-shadow: 0px 2px 5px -3px #00000074;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.search {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.search > input,
+button {
+    background-color: white;
+    height: 30px;
+    border: none;
+}
+
+.search > button {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.sbutton::hover {
+    background-color: none;
+    color: white;
+}
+
+.search > input {
+    border-radius: 8px;
+}
+
+.sicon {
+    width: 10px;
+    height: auto;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.condition {
+    width: 100px;
+    height: auto;
+    align-self: center;
+}
+
+.time {
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.temp > h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom : 30px;
+}
+
+
+
+.humidity,
+.wspeed {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.air > p {
+    margin: 0;
+    font-weight: 700;
+}

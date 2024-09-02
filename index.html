@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="city name" class="input"/>
+                <button type="submit" class="sbutton">
+                    <img src="img/search.png" alt="" class="sicon" />
+                </button>
+            </div>
+
+            <div class="temp">
+                <!-- <p class="time">12:00</p> -->
+                <img src="img/sunny.png" alt="condition" class="condition" />
+                <h1 class="temperature">36 °C</h1>
+                <!-- Degree symbol: Alt+0176-->
+                <h2 class="city">Dhaka</h2>
+            </div>
+
+            <div class="details">
+                <div class="air">
+                    <div class="info">
+                        <img src="img/humidity.png" alt="" class="humidity" />
+                        <p class="hinfo">90%</p>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+                <div class="air">
+                    <div class="info">
+                        <img src="img/wind.png" alt="" class="wspeed" />
+                        <p class="winfo">7 KM</p>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
