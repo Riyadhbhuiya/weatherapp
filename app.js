@@ -1,4 +1,4 @@
-//api key = 776fa5a50d900bea47b673948bf4d52f
+//api key = 
 
 console.log("Alive")
 
@@ -9,7 +9,7 @@ const getWeather = () => {
     //const sButton = document.getElementsByClassName("sbutton")[0];
     const cityName = input.value;
 
-    const apiKey = "776fa5a50d900bea47b673948bf4d52f";
+    const apiKey = "";
     const gApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=`;
 
     const getCityName = async function () {
